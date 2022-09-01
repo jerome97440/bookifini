@@ -1,0 +1,688 @@
+
+html,body{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+/* Eléments principaux de la page */
+.margeauto
+ {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+
+.logo {
+    margin-left: 10px;
+    width: 100px;
+    height: 50px;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+
+}
+.center{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    margin: 0;
+    font-family: 'raleway';
+
+}
+
+/* Navigation */
+nav a {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    border-top: solid 3px;
+    color: #0065FC;
+
+}
+/* Barre de recherche (form)*/
+.search {
+    display: flex;
+    justify-content: flex-start;
+    padding: 1px;
+    border-radius: 15px;
+    background-color: #F2F2F2;
+    width: 320px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+
+.texte {
+    padding: 15px;
+    margin-left: 25px;
+    border: hidden;
+    font-size: 14px ;
+    font-weight: bold 
+}
+
+button {
+    background-color: #0065FC;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    color: #F2F2F2;
+    cursor: pointer;
+    border: hidden;
+}
+i.button{
+    font-style: normal;
+}
+.icone_loupe {
+    display: none;
+}
+
+button:hover {
+
+    color: #0065FC;
+    background-color: #deebff;
+
+}
+
+/* filtres */
+.textegras {
+    font-weight: bold;
+}
+
+.filtres {
+    display: flex;
+    align-items: center;
+}
+
+h3+ul {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.filtres li {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid #F2F2F2;
+    border-radius: 200px;
+    font-weight: bold;
+    padding: 0 20px 0 0;
+    margin-top: 10px;
+    margin-left: 25px;
+  
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.filtresitems {
+    display: flex;
+    align-items: center;
+    background-color: #deebff;
+    padding: 20px;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    color: #0065FC;
+}
+
+.ifiltre {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    border-radius: 200px;
+    padding: 15px;
+    margin-right: 25px;
+}
+
+li:hover {
+    background-color: #deebff;
+}
+
+/* info */
+.inf {
+    border: #F2F2F2 solid;
+    color: #0065FC;
+    border-radius: 50px;
+    width: 13px;
+    height: 18px;
+    padding-left: 7px;
+
+}
+
+#inf {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding-top: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.contenairs {
+    display: flex;
+}
+
+.contenairs2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+
+}
+
+/*hebergements a marseille*/
+.contenairs
+{
+   margin-left: auto;
+   margin-right: auto;
+   width: 90%;
+}
+#boxhebergement {
+    width: 67%;
+    background-color: #F2F2F2;
+    border-radius: 15px 15px 15px 15px;
+ 
+}
+
+.card {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.textcard {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    padding-right: 10px;
+    margin-left: 5px;
+    height: 210px;
+
+}
+
+.textcard1 {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    margin-bottom: 25px;
+    height: 320px;
+    box-shadow: 1px 1px 4px 1px #F2F2F2;
+    padding: 5px;
+
+}
+
+.textcard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.textcard1:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.etoileblue {
+    display: flex;
+    color: #0065FC;
+    margin-left: 15px;
+}
+
+.etoilebluepop {
+    display: flex;
+    color: #0065FC;
+    margin-top: 60px;
+
+}
+
+.etoilegrey {
+    color: grey
+}
+
+.grey {
+    color: grey
+}
+
+.cardam {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.textcard:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.populaire {
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px 15px 15px 15px;
+    background-color: #F2F2F2;
+    padding: 0px 30px;
+    margin-left: 20px;
+
+}
+
+.marge {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.decal {
+    margin-left: 25px;
+    margin-bottom: 35px;
+    font-weight: bolder
+}
+.margeactivite{
+   margin-left: 20px;
+}
+
+.card3 {
+    object-fit: cover;
+    display: flex;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    padding: 6px 6px 6px 6px;
+    margin-top: 25px;
+    height: 170px;
+}
+
+.card3:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.image {
+    object-fit: cover;
+    width: 30%;
+    border-radius: 15px 0px 0px 15px;
+    margin-right: 15px;
+    height: 100%;
+}
+
+.pop {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+
+/*acitivités a marseille*/
+.activitemarseille
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
+#boxactivite {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.cardportparc {
+    object-fit: cover;
+    width: 100%;
+    height: 520px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.port {
+    width: 25%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    height: 580px;
+}
+
+.cardfort {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.fort {
+    height: 310px;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    margin-bottom: 20px;
+}
+
+.ile {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+}
+
+.cardile {
+    object-fit: cover;
+    height: 190px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.port:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.fort:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.ile:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.parcnational:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.notredame:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.parclongchamp:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.parcnational {
+    width: 25%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+ height: 580px;
+}
+
+.cardparc {
+    object-fit: cover;
+    height: 520px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.notredame {
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+    margin-bottom: 20px;
+}
+
+.cardnotredame {
+    object-fit: cover;
+    height: 200px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.parclongchamp {
+    height: 310px;
+    width: 100%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 1px 1px 1px 1px #F2F2F2;
+}
+
+.cardlongchamp {
+    object-fit: cover;
+    height: 250px;
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+.ilefort{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.dameparc
+{
+    margin-left: 20px;
+}
+#contfoot {
+    display: flex;
+    justify-content: space-between;
+    
+    background-color: #F2F2F2;
+    padding-top: 20px;
+    margin-top: 30px;
+    padding-left: 60px;
+
+}
+h2 {
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+h4{
+    margin-left: 20px;
+}
+.deco {
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    margin-top: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.margefooter {
+    padding-left: 1%;
+}
+
+.margefooter2 {
+    padding-right: 30%;
+}
+ 
+@media (max-width: 991px) {
+    .contenairs {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .populaire {
+        padding: 10px;
+        margin-left: 0px;
+    }
+
+    #boxhebergement {
+        width: 100%;
+        margin-top: 10px;
+        background-color: white;
+    }
+
+    #boxactivite {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardportparc {
+        width: 100%;
+        height: 250px;
+    }
+
+    .port {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .cardparc {
+        height: 250px;
+        width: 100%;
+    }
+
+    .parcnational {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+
+    .ile {
+        margin-bottom: 20px;
+    }
+    .ilefort{
+        margin: 0px;
+    }
+    .dameparc{
+        margin: 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    nav a:hover {
+        border-bottom: solid 3px ;
+        color: #0065FC;
+        border-top: none;
+        width: 100%;
+     
+    }
+    header{
+        margin:0;
+        width: 100%;
+    }
+    .center1{
+        display: flex;
+           width: 100%;
+           border-bottom: solid 6px #F2F2F2;
+           justify-content: center;
+           padding: 0;
+           margin-bottom: 5%;
+           padding-bottom: 20px;
+    }
+    nav{
+        width: 100%;
+    }
+    .contenairs2{
+        padding: 0px;
+
+    }
+    .icone_loupe {
+        display: unset;
+        border-radius: 13px;
+        width: 100%;
+    }
+
+    button {
+        display: none;
+    }
+    .filtres{
+        display: unset;
+      flex-direction: column;
+      align-content: flex-start;
+    }
+    .filtres li{
+        margin-left: 0px;
+    }
+    .textcard1 {
+        width: 100%;
+    }
+    ul{
+       padding: 0px;
+    }
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #boxactivite {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cardportparc {
+        width: 100%;
+        height: 250px;
+    }
+
+    .port {
+        width: 100%;
+        height: 300px;
+        margin-bottom: 20px;
+    }
+
+    .cardparc {
+        height: 250px;
+        width: 100%;
+    }
+
+    .parcnational {
+        height: 300px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .ile {
+        margin-bottom: 20px;
+    }
+    #contfoot {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .apropos {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .hebergfoot {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .assistance {
+        display: flex;
+        flex-direction: column;
+
+    }
+}
